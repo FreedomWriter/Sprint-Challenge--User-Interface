@@ -74,8 +74,8 @@ p {
 .header {
     width: 800px;
     margin: 0 auto;
-    padding: 20px 0px;
-    border: 1px purple solid;
+    padding: 30px 0px;
+    /*border: 1px purple solid;*/
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -92,6 +92,10 @@ nav {
     color: black;
 }
 
+img {
+    padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,6 +108,10 @@ nav {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about {
+    flex-grow: 1;
 }
 
 .middle-content {
@@ -171,6 +179,54 @@ nav {
 
 .middle-content .boxes .box10 {
     background: dodgerblue;
+}
+
+.container .info {
+    /*border:green 2px solid;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: none;
+    margin: 25px 0px;
+}
+
+.container .info div {
+    /*border: purple 2px solid;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 46%;
+    border-bottom: black 1px dashed;
+}
+
+.container .info div p {
+    padding: 20px 0px;
+}
+
+.container .info div h2 {
+    padding-top: 15px;
+    padding-left: 0;
+}
+
+.container .info div a {
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.container .info .places {
+    padding-top: 20px;
+}
+
+.container .info .collab {
+    padding-top: 20px;
+}
+
+.together {
+    padding: 20px 0px 30px 0px;
 }
 
 .bottom-content {
